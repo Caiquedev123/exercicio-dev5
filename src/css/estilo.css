@@ -1,0 +1,95 @@
+@font-face {
+    font-family: ftn1;
+    src: url("../imagens/Outfit-Bold.ttf");
+}
+
+@font-face {
+    font-family: ftn2;
+    src: url("../imagens/Outfit-Regular.ttf");
+}
+
+@font-face {
+    font-family: ftn3;
+    src: url("../imagens/Outfit-SemiBold.ttf");
+}
+
+.cabecalho{
+    text-align: center;
+    padding: 80px 10px 20px 10px;
+    font-size: 14px;
+}
+
+.cabecalho h2{
+    font-size: 26px;
+    font-family: ftn3;
+    color: rgba(0, 0, 0, 0.389);
+}
+
+.cabecalho h1{
+    color: black;
+    font-weight: bold;
+    font-family: ftn3;
+    padding: 0 0 20px 0;
+}
+
+.cabecalho p{
+    color: rgba(0, 0, 0, 0.326);
+    width: 300px;
+    margin: auto;
+}
+
+.container{
+    width: 300px;
+    margin: auto;
+    padding: 50px 0 0 0;
+}
+
+.container img{
+    width: 50px;
+    margin: 0 0 0 150px;
+    padding-top: 20px;
+}
+
+.container h2{
+    font-family: ftn3;
+}
+
+.container p{
+    font-family: ftn2;
+    color: rgba(0, 0, 0, 0.522);
+    line-height: 20px;
+    width: 100%
+    
+}
+
+.ctn1{
+    background-color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.136);
+    border-top: 5px solid lightblue;
+    padding: 30px 30px;
+    margin-bottom: 30px;
+}
+
+.ctn2{
+    background-color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.136);
+    border-top: 5px solid rgb(220, 70, 15);
+    padding: 30px 30px;
+    margin-bottom: 30px;
+}
+
+.ctn3{
+    background-color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.136);
+    border-top: 5px solid rgb(226, 186, 5);
+    padding: 30px 30px;
+    margin-bottom: 30px;
+}
+
+.ctn4{
+    background-color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.136);
+    border-top: 5px solid rgb(37, 11, 165);
+    padding: 30px 30px;
+    margin-bottom: 30px;
+}
